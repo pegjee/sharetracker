@@ -1,16 +1,16 @@
-package com.example.sharetracker.ui.home;
+package com.example.sharetracker.ui.watchlist;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class WatchlistViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public WatchlistViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is watchlist fragment");
     }
 
     public LiveData<String> getText() {
